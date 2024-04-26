@@ -1,0 +1,150 @@
+.navbar{
+    width: 100%;
+    height: 50px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    /* top: 0; */
+}
+
+.links{
+    width: 100%;
+    height: 50px;
+    background: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+}
+
+.left-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+    gap: 20px;
+}
+.right-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 120px;
+    gap: 30px;
+}
+.left-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.left-side img{
+    width: 40px;
+   border-radius: 50%;
+   margin-right: 20px;
+   height: 40px;
+}
+.left-side p{
+    color: white;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.right-side{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    margin-right: 120px;
+    color: white;
+
+}
+.right-side a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 800;
+}
+.right-side a:hover,.right-side a:focus{
+    /* background-color: gold; */
+    background-color: transparent;
+}
+
+.welcome-img img{
+    width: 100%;
+    height: 600px;
+}
+
+.coffe-txt{
+    position: absolute; 
+    bottom: 200px;
+    left: 400px;
+
+}
+
+.coffe-txt h1{
+    color: black;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.coffe-txt h2{
+    margin-left: 40px;
+}
+
+.coffe-txt h3{
+    margin-left: 40px;
+}
+
+
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background: black;
+    /* position: absolute;
+    top: 800px; */
+    
+}
+
+.short-cuts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer ul{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    list-style: none;
+}
+
+.left{
+    margin-left: 40px;
+}
+
+.right{
+    margin-right: 40px;
+}
+
+.socials{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+   position: relative;
+   top: 40px;
+}
+
+.right-reserved{
+    width: 100%;
+    height: 50px;
+    background: #0c0c0c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-reserved p{
+    color: white;
+}
